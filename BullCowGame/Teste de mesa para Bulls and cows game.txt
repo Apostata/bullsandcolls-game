@@ -1,0 +1,37 @@
+HW = ant
+Guess = atn
+comparar cada letra de HW com cada letra de Guess
+então
+
+	HW[1] = a Guess[1] = a
+	BULL= 1
+
+	HW[1] = a Guess[2] = t
+	...
+
+	HW[1] = a Guess[3] = n
+	...
+
+	HW[2] = n Guess[1] = a
+	...
+	
+	HW[2] = n Guess[2] = t
+	...
+
+	HW[2] = n Guess[3] = n
+	COW = 1
+
+	HW[3] = t Guees[1] = a
+	...
+	
+	HW[3] = t Guess[2] = t
+	COW = 2
+
+	HW[3] = t Guess[3] = n
+	...
+
+	BULLS= 1 COWS = 2
+
+	
+	
+	 
